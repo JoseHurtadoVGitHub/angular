@@ -10,13 +10,15 @@ import {RegistroComponent} from './pages/registro/registro.component';
 import {HomeComponent} from './pages/home/home.component';
 import {LoginComponent} from './pages/login/login.component';
 import { AuthGuard } from './guards/auth.guard';
+import { MenuComponent } from './pages/menu/menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RegistroComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
